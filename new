@@ -1,0 +1,13 @@
+const user={name:"Manipal",
+  roll:23,
+  email:"nabin@gmail.com",
+  campus:"Siddhanath"
+}
+const user1= {...user,address:"Mahendranagar",ward:18}
+// console.log(user.name)
+// console.log(user1.name)
+const{name:fullname,roll,email,campus,address,ward}=user1;
+console.log(fullname)
+console.log(address)
+console.log(campus)
+console.log(email)
